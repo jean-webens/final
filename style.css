@@ -1,0 +1,468 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    /* sa a se pati header la */
+header{
+    position: sticky; 
+    top: 0;
+ }
+        
+.navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #020b63;
+        padding: 10px 30px;
+        gap: 30px;
+        position: sticky;
+}
+.logo img{
+        width: 75px;
+        height: 75px;
+        border-radius: 100%;
+        object-fit: cover;
+        border: 3px solid rgb(253, 187, 6);
+        margin-bottom: 10px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.menu a{
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 16px;
+}
+.menu a:hover{
+            color:rgb(253, 187, 6);
+}
+        /* sa a se pati hero a */
+.hero{
+    height: 100%; 
+    background-image:linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)),url("logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+        text-align: center;
+        color: #f4f4f4f4;
+        background-color: rgba(6, 1, 51, 0.5);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        border-radius: 30px;
+}
+        
+        
+.jaune{
+    color: #faad08; 
+    font-size: 22px;
+}
+.bleu{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#020b63; 
+    font-size: 30px;
+}
+        /* sa se pati galri a */
+.galeri{
+        padding: 40px;
+}
+.galeri h2{
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        color: #020b63; 
+}
+.galeri-grid{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+}
+.galeri-grid img{
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+}
+/* fen paj la */
+.bgg{
+        margin: 0;
+        background-color: rgba(51, 1, 1, 0.274);
+        color:#020b63;
+        border-radius: 10px;
+}
+.foot-container{
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(51, 1, 1, 0.274);
+        color:#020b63;
+}
+.foot-container{
+        display: flex;
+        gap: 40px;
+        padding: 40px;
+}
+.foot-content{
+        flex: 2;
+}
+.foot-content h2{
+        font-size: 40px;
+        margin-bottom: 20px;
+}
+.f00t-content p{
+        line-height: 1.5;
+        font-size: 20px;
+        color: beige;
+}
+.aside{
+        flex: 1;
+        border-left: 1px solid #020b63;
+}
+.aside h3{
+        font-size: 20px;
+        margin-bottom: 15px;
+        text-decoration: underline;
+}
+.aside div{
+        padding: 15px 10px;
+        border-bottom: 1px solid #020b63;
+        cursor: pointer;
+        color:#020b63
+}
+.aside div:hover{
+        color: aliceblue;
+}
+/* pati liv la */
+.meslivres{ 
+        height: 100%; 
+        background-image:linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)),url("logo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+        margin-left: 10px;       
+}
+
+
+.display{
+        gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);  
+ }
+.liv{ 
+        padding: 20px;
+        padding-bottom: 5px;
+        color:#020b63;
+        text-align: center;
+        text-decoration:underline;
+        font-style: italic;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.classe{
+      margin-bottom:10px;
+      padding:25px;
+      border-radius:12px;
+      box-shadow:4px 4px 4px 4px rgba(0,0,0,0.1);
+      width: 400px;
+
+}
+.classe a{
+      text-decoration: none;
+      color: black;
+}
+.classe a:hover{
+            color:rgb(253, 252, 252);
+}
+.meslivres h2{ 
+        color: #020b63;
+        padding-top: 0;
+        margin-top: 0;
+        border-bottom:2px solid #020c638f;
+        
+}
+
+/* pati ul la */
+.classe ul{
+        list-style: none;
+        padding: 0;  
+        margin: 0;    
+}
+.classe li{      
+      padding: 10px;
+}
+.classe li:hover{
+      background:#020b63;
+      color:white;
+}
+.classe li a:hover{
+      background:#020b63;
+      color:white;
+}
+
+/* pati kategori */
+.services{
+        
+    height: 100vh; 
+    background-image:linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)),url("logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    padding-bottom: 10px;  
+}
+.services h2{
+        text-align: center;
+        color:#020b63;
+}
+.cards{
+        display: flex;
+        justify-content: center;
+        align-self: stretch;
+        gap: 30px;
+        flex-wrap: wrap;
+}
+.card{
+        width: 250px;
+        height: 250px;
+        text-align: center;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        padding: 10px;
+        background-color: rgba(51, 1, 1, 0.274);
+}
+.card h3{
+        color:#020b63;
+        font-style: italic;
+}
+
+.card img{
+        width: 100%;
+        height: 60%;
+        border-radius: 10px ;
+}
+button{
+        color: #020b63;
+        padding: 5px 10px;
+        border-radius: 10px;
+        background-color: lch(76.21% 80.61 77.31 / 0.37);
+        
+}
+button b:hover{
+        color:rgba(253, 11, 2, 0.5);
+        font-size: 15px;
+}
+
+/* sa a se paj abonnement an */
+.heroo{ 
+        background-image:linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)),url("logo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+  
+}
+.tittre h2{
+        padding-left: 20px;
+ }
+ .tittre p{
+        padding-left: 20px;
+ }
+
+.plans{
+        display: flex;
+        justify-content: center;
+        align-self: stretch;
+        gap: 30px;
+        flex-wrap: wrap;
+        
+}
+.plan{
+        width: 300px;
+        height: 500px;
+        text-align: center;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        padding: 10px;
+        margin-bottom:10px;
+        padding:25px;
+        border-radius:12px;
+        box-shadow:4px 4px 4px 4px rgba(0,0,0,0.1);       
+}
+.plan img{
+        width: 100%;
+        height: 60%;
+        border-radius: 10px;
+}
+.offre{
+        color: #020b63;
+        font-size: 25px;
+        font-style: italic;
+ }
+button a{
+        text-decoration: none;
+        color: #020b63;
+        font-size: 16px; 
+}
+
+/* formulaire abonnement */
+.finbg{
+        background-image:linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)),url("logo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        padding: 40px;
+        color: #020b63;
+        font-weight: 600;
+}
+.formbox{
+        width:400px;
+        height: 100%;
+        padding:20px;
+        border-radius:15px;
+        box-shadow:4px 4px 4px 4px rgba(0, 0, 0, 0.274);
+}
+ .formbox h2{
+        text-align: center;
+}
+ .formbox input{
+    width: 90%;
+    padding: 10px;
+    padding-right:0px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.reset{ 
+        cursor: pointer;
+}
+.retour{
+        text-align: center;
+}
+
+/* page contact */
+.herooo{
+    height: 100%; 
+    background-image:linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)),url("logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #020b63;
+}
+.containerr{ 
+        width:400px;
+        height: 90%;
+        padding:20px;
+        margin: 50px;
+        border-radius:15px;
+        box-shadow:4px 4px 4px 4px rgba(0, 0, 0, 0.274);
+}
+.containerr h2{
+        text-align: center;
+ }
+.containerr label {
+      display: block;
+}
+.cont input{
+    width: 90%;
+    padding: 10px;
+    padding-right:0px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.containerr textarea{
+        border-radius: 10px;
+        margin-left: 20px;     
+}
+.footer-contenair{
+
+        width: 95%;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow:4px 4px 4px 4px rgba(0, 0, 0, 0.274);
+        color: #020b63;
+ }
+ .fini{
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 10px;
+  }
+ /* Responsive */
+
+@media(max-width: 768px){
+ header{
+    position:relative; 
+ }
+.navbar{
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px
+}
+.menu{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+}
+.menu a{
+        font-size: 16px; 
+}
+.hero{  
+        height: 70vh;
+        padding: 20px;
+}     
+.content{ 
+        padding: 15px;
+}
+.galeri-grid{ 
+         grid-template-columns: 1fr; 
+}
+.galeri-grid img{
+        align-items: center;
+        height: 180px;
+}
+.fini{
+        font-size: 10px;
+        margin-bottom: 5px;
+        padding: 10px;
+}
+.cards{ 
+        flex-direction: column;
+        align-items: center;
+}
+.foot-container{
+        flex-direction: column;
+}   
+.display{
+         grid-template-columns: 1fr; 
+       
+ }
+ .classe{
+      width: 80%;
+}
+.plan{
+        width: 70%;     
+}
+.formbox{
+        width:80%;
+        height: 90%;
+}
+.containerr{ 
+        width:80%;
+}
+.footer-contenair{
+
+        width: 80%;      
+ }
+ }
